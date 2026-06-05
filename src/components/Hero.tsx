@@ -111,7 +111,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 bg-brand-blue-light/10 border border-brand-blue-light/20 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-[0.2em] text-brand-blue-dark mb-8 text-shadow-soft"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-brand-orange animate-pulse" />
-          School Year 2026/2027
+          Information Center
         </motion.div>
 
         {/* Cinematic Staggered Title */}
@@ -163,27 +163,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Action CTAs */}
-          <motion.div
-            variants={itemVariants}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12 w-full max-w-md"
-          >
-            <a
-              href="#rundown"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-blue-dark hover:bg-brand-blue text-brand-white px-8 py-4 rounded-full font-bold uppercase tracking-wider text-sm shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 group"
-            >
-              View Rundown
-              <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
-            </a>
 
-            <a
-              href="#activities"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-white border border-brand-blue-light/20 hover:bg-brand-blue-light/5 text-brand-blue-dark px-8 py-4 rounded-full font-bold uppercase tracking-wider text-sm shadow-md hover:shadow-lg transition-all duration-300"
-            >
-              Activity Center
-              <Play className="w-4 h-4 text-brand-orange" />
-            </a>
-          </motion.div>
         </motion.div>
       </div>
 
