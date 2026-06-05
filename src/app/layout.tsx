@@ -20,10 +20,10 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Annual Leadership Meeting 2026/2027 | SDH Daan Mogot",
-  description: "Collaboration • Vision • Innovation - Annual Leadership Meeting of Sekolah Diah Harapan Daan Mogot. Premium corporate education branding and leadership guidelines.",
+  title: "Annual Leadership Meeting 2026/2027 | Sekolah Dian Harapan",
+  description: "Annual Leadership Meeting Information Center",
   keywords: ["Annual Leadership Meeting", "SDH Daan Mogot", "Collaboration", "Vision", "Innovation", "Sekolah Diah Harapan"],
-  authors: [{ name: "SDH Daan Mogot" }],
+  authors: [{ name: "Edutech SDH SLH" }],
 };
 
 export default function RootLayout({
