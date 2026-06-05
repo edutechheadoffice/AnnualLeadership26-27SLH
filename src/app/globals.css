@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: var(--font-bebas-neue), sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+
+  --color-brand-blue-light: #2F78D8;
+  --color-brand-blue: #2159B5;
+  --color-brand-blue-dark: #0B2C67;
+  
+  --color-brand-yellow: #F3D54E;
+  --color-brand-yellow-bright: #FFD84D;
+  
+  --color-brand-orange: #F28B42;
+  
+  --color-brand-cream: #F8F8F6;
+  --color-brand-white: #FFFFFF;
+  
+  --color-brand-text-dark: #15396B;
+  --color-brand-text-muted: #4B5E7A;
+}
+
+/* Custom Utilities & Base Styling */
+:root {
+  --background: #F8F8F6;
+  --foreground: #15396B;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Grid Paper Background Pattern */
+.bg-grid-pattern {
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(33, 89, 181, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(33, 89, 181, 0.05) 1px, transparent 1px);
+}
+
+/* Glassmorphism Styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-panel-dark {
+  background: rgba(11, 44, 103, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel-yellow {
+  background: rgba(243, 213, 78, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Custom Scrollbar */
+@layer base {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F8F8F6;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2F78D8;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2159B5;
+  }
+}
+
+/* Smooth Scrolling Anchors */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography styles for headings */
+h1, h2, h3, .font-bebas {
+  font-family: var(--font-bebas-neue), sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* Soft text shadow */
+.text-shadow-soft {
+  text-shadow: 0 4px 12px rgba(11, 44, 103, 0.15);
+}
+
+.text-shadow-strong {
+  text-shadow: 0 8px 24px rgba(11, 44, 103, 0.3);
+}
+
+/* Custom animations helper */
+.animate-grid-move {
+  background-position: 0 0;
+  animation: gridMove 20s linear infinite;
+}
+
+@keyframes gridMove {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 30px 30px;
+  }
+}
+
+/* Card Depth Effect */
+.card-shadow-premium {
+  box-shadow: 
+    0 4px 6px -1px rgba(11, 44, 103, 0.05),
+    0 2px 4px -1px rgba(11, 44, 103, 0.03),
+    0 20px 25px -5px rgba(11, 44, 103, 0.05);
+}
+
+.card-shadow-premium-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-shadow-premium-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 10px 15px -3px rgba(11, 44, 103, 0.08),
+    0 4px 6px -2px rgba(11, 44, 103, 0.05),
+    0 30px 40px -15px rgba(11, 44, 103, 0.15);
+}

@@ -1,0 +1,44 @@
+import type { Metadata, Viewport } from "next";
+import { Bebas_Neue, Inter } from "next/font/google";
+import "./globals.css";
+
+const bebasNeue = Bebas_Neue({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-bebas-neue",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
+export const metadata: Metadata = {
+  title: "Annual Leadership Meeting 2026/2027 | SDH Daan Mogot",
+  description: "Collaboration • Vision • Innovation - Annual Leadership Meeting of Sekolah Diah Harapan Daan Mogot. Premium corporate education branding and leadership guidelines.",
+  keywords: ["Annual Leadership Meeting", "SDH Daan Mogot", "Collaboration", "Vision", "Innovation", "Sekolah Diah Harapan"],
+  authors: [{ name: "SDH Daan Mogot" }],
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="en"
+      className={`${bebasNeue.variable} ${inter.variable} h-full scroll-smooth antialiased`}
+    >
+      <body className="min-h-full bg-[#F8F8F6] text-[#15396B] font-sans overflow-x-hidden selection:bg-[#F3D54E]/30 selection:text-[#0B2C67]">
+        {children}
+      </body>
+    </html>
+  );
+}
