@@ -88,8 +88,8 @@ export default function Invitation() {
                   </div>
                   <div className="pt-1">
                     <p className="text-xs uppercase tracking-wider text-brand-text-muted font-bold mb-1">Location</p>
-                    <p className="text-xl text-brand-blue-dark font-semibold">SDH Daan Mogot</p>
-                    <p className="text-sm text-brand-text-muted mt-1">Jakarta Barat, Indonesia</p>
+                    <p className="text-xl text-brand-blue-dark font-semibold">SDH Lippo Village (Mentawai Campus)</p>
+                    <p className="text-sm text-brand-text-muted mt-1">Tangerang, Banten, Indonesia</p>
                   </div>
                 </div>
               </div>

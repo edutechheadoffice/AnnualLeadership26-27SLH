@@ -27,11 +27,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
             ? "bg-[#F8F8F6]/85 backdrop-blur-md shadow-md py-3 border-b border-brand-blue-light/10"
             : "bg-transparent py-5"
-        }`}
+          }`}
       >
         {/* Progress Bar */}
         <motion.div
@@ -43,7 +42,7 @@ export default function Navbar() {
           {/* Logo / Event Title */}
           <a href="#hero" className="flex items-center group">
             <Image
-              src="/logo.png"
+              src="/Main Logo SLH - Horizontal - Color.png"
               alt="ALM Logo"
               width={128}
               height={128}

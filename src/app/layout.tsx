@@ -20,11 +20,12 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Annual Leadership Meeting 2026/2027 | Sekolah Dian Harapan",
+  title: "Annual Leadership Meeting 2026/2027 | Sekolah Lentera Harapan",
   description: "Annual Leadership Meeting Information Center",
-  keywords: ["Annual Leadership Meeting", "SDH Daan Mogot", "Collaboration", "Vision", "Innovation", "Sekolah Diah Harapan"],
+  keywords: ["Annual Leadership Meeting", "SLH", "True Knowledge", "Faith in Christ", "Godly Character", "Sekolah Diah Harapan"],
   authors: [{ name: "Edutech SDH SLH" }],
 };
+
 
 export default function RootLayout({
   children,

@@ -4,9 +4,9 @@
   --font-bebas: var(--font-bebas-neue), sans-serif;
   --font-sans: var(--font-inter), sans-serif;
 
-  --color-brand-blue-light: #2F78D8;
-  --color-brand-blue: #2159B5;
-  --color-brand-blue-dark: #0B2C67;
+  --color-brand-blue-light: #2D6144;
+  --color-brand-blue: #2D6144;
+  --color-brand-blue-dark: #2D6144;
 
   --color-brand-yellow: #F3D54E;
   --color-brand-yellow-bright: #FFD84D;
@@ -23,7 +23,7 @@
 /* Custom Utilities & Base Styling */
 :root {
   --background: #F8F8F6;
-  --foreground: #15396B;
+  --foreground: #326017;
 }
 
 body {
@@ -49,7 +49,7 @@ body {
 }
 
 .glass-panel-dark {
-  background: rgba(11, 44, 103, 0.8);
+  background: rgba(26, 103, 69, 0.8);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);

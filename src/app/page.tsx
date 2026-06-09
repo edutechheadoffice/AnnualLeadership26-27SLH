@@ -54,7 +54,7 @@ export default function Home() {
                 transition={{ duration: 0.6 }}
                 className="text-xs uppercase font-bold tracking-[0.25em] text-brand-yellow-bright mb-4 text-center"
               >
-                Sekolah Dian Harapan
+                Sekolah Lentera Harapan
               </motion.span>
 
               {/* Title Header */}

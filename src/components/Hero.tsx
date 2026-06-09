@@ -89,7 +89,7 @@ export default function Hero() {
         transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
         className="hidden lg:block absolute left-8 top-1/2 -translate-y-1/2 w-32 xl:w-80 h-32 rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-white z-0"
       >
-        <Image src="/hero-left.jpg" alt="Event Left" fill className="object-cover" />
+        <Image src="/hero-left.JPG" alt="Event Left" fill className="object-cover" />
       </motion.div>
 
       {/* Right Image */}
@@ -99,7 +99,7 @@ export default function Hero() {
         transition={{ duration: 1, delay: 0.7, ease: "easeOut" }}
         className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 w-32 xl:w-80 h-32 rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-white z-0"
       >
-        <Image src="/hero-right.jpg" alt="Event Right" fill className="object-cover" />
+        <Image src="/hero-right.JPG" alt="Event Right" fill className="object-cover" />
       </motion.div>
 
       <div className="max-w-6xl mx-auto w-full text-center relative z-10 flex flex-col items-center">
@@ -159,7 +159,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-2 bg-brand-white border border-brand-blue-light/10 px-4 py-2 rounded-full shadow-sm text-brand-text-dark font-medium">
               <MapPin className="w-4 h-4 text-brand-orange" />
-              SDH Daan Mogot
+              SDH Lippo Village (Mentawai Campus)
             </div>
           </motion.div>
 
