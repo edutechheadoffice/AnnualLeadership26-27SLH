@@ -153,7 +153,7 @@ const day2Sessions: Session[] = [
     title: "Fragile, Fallen, and Held — The Leader Who Needs Grace (2 Corinthians 12:9-10)",
     people: [
       {
-        name: "Pdt. Dedy Panggabean",
+        name: "Dedy Panggabean",
         role: "Preacher"
       }
     ],
