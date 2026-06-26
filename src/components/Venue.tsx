@@ -12,7 +12,7 @@ export default function Venue() {
       <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-brand-yellow/5 blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
-        
+
         {/* Section Header */}
         <div className="flex flex-col items-center text-center mb-16">
           <motion.h2
@@ -30,14 +30,14 @@ export default function Venue() {
             transition={{ delay: 0.1 }}
             className="text-3xl sm:text-5xl font-bebas text-brand-blue-dark tracking-wide uppercase mt-2 text-shadow-soft"
           >
-            SDH Daan Mogot Campus
+            SDH Lippo Village (Mentawai) Campus
           </motion.h3>
           <div className="w-12 h-1 bg-brand-blue-light mt-4 rounded-full" />
         </div>
 
         {/* Content Layout Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-          
+
           {/* Glassmorphic Info Card */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -51,13 +51,13 @@ export default function Venue() {
                 <Building className="w-3.5 h-3.5" />
                 Conference Venue
               </div>
-              
+
               <h4 className="text-3xl font-bebas text-brand-blue-dark tracking-wide uppercase mb-4">
-                Sekolah Dian Harapan Daan Mogot
+                Sekolah Dian Harapan Lippo Village
               </h4>
-              
+
               <p className="text-sm text-brand-text-muted leading-relaxed mb-6">
-                The campus is strategically located in West Jakarta, designed with modern architecture and state-of-the-art academic facilities. The leadership meeting will be held across the Main Chapel, Hope Hall, and multiple collaborative breakout rooms.
+                The campus is strategically located in Lippo Village, Karawaci, Tangerang. The leadership meeting will be held across the Main Chapel, Hope Hall, and multiple collaborative breakout rooms.
               </p>
 
               <div className="space-y-4">
@@ -68,7 +68,7 @@ export default function Venue() {
                   <div>
                     <h5 className="text-xs font-bold uppercase tracking-wider text-brand-blue-dark">Address</h5>
                     <p className="text-xs text-brand-text-muted">
-                      Jl. Daan Mogot KM 11, RT.1/RW.4, Kedaung Kali Angke, Cengkareng, Jakarta Barat, 11710
+                      Taman Imam Bonjol Lippo Village, Jl. Mentawai No.201, RT.002/RW.009, Panunggangan Bar., Kec. Cibodas, Kota Tangerang, Banten 15138
                     </p>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export default function Venue() {
                   <div>
                     <h5 className="text-xs font-bold uppercase tracking-wider text-brand-blue-dark">Parking & Access</h5>
                     <p className="text-xs text-brand-text-muted">
-                      Parking is available in the main school yard. Access via Daan Mogot main highway.
+                      Parking is available in the main school yard.
                     </p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ export default function Venue() {
 
             <div className="mt-8 border-t border-brand-blue-light/10 pt-6">
               <a
-                href="https://maps.app.goo.gl/uXpS3YgqQ6MubY1q6"
+                href="https://maps.app.goo.gl/gnUzJj6hjDcFnTQPA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full inline-flex items-center justify-center gap-2 bg-brand-blue-dark hover:bg-brand-blue text-brand-white py-3 rounded-full text-xs font-bold uppercase tracking-wider transition-colors duration-300"
@@ -110,9 +110,9 @@ export default function Venue() {
           >
             {/* Soft inner shadow accent */}
             <div className="absolute inset-0 border border-brand-white/20 rounded-3xl pointer-events-none z-10" />
-            
+
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8624647313885!2d106.72147367469733!3d-6.14917459383778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f8072049c303%3A0xe96c4b267155bbad!2sSekolah%20Dian%20Harapan%20Daan%20Mogot!5e0!3m2!1sen!2sid!4v1717056000000!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.115405027846!2d106.59915785179818!3d-6.226918150178065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69feac676128eb%3A0x6d45896310ce524!2sDian%20Harapan%20Lippo%20Village%20Junior%20High%20and%20Senior%20High%20School!5e0!3m2!1sen!2sid!4v1782436873471!5m2!1sen!2sid"
               className="w-full h-full border-0 rounded-3xl grayscale-[20%] contrast-[110%] group-hover:grayscale-0 transition-all duration-500"
               allowFullScreen={true}
               loading="lazy"

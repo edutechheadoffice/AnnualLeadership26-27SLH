@@ -4,70 +4,95 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { User, BookOpen } from "lucide-react";
 
-interface Speaker {
+export interface Speaker {
   id: string;
   name: string;
   jobTitle: string;
   topic: string;
+  role?: string;
+  label?: string;
   imageUrl?: string;
+  imagePosition?: string; // misalnya: "top", "bottom", "center", atau "0% 20%"
+  flipHorizontal?: boolean;
+  imageScale?: number;
 }
 
-const day1Speakers: Speaker[] = [
+export const day1Speakers: Speaker[] = [
   {
     id: "d1-1",
-    name: "Deny Kiswanto Sinaga",
-    jobTitle: "Executive Director for PHG Cluster 2",
-    topic: "Unified Leadership in Education",
-    imageUrl: "Deny Kiswanto Sinaga (7).jpg",
-  },
+    name: "Alfa Citra Sritosa",
+    jobTitle: "Ruling Elder of Christ Chapel Karawaci",
+    topic: "A Community of Servants Called to Lead (Mark 10:43-35) & School Theme Exposition",
+    role: "Preacher",
+    label: "Opening Service & Topic",
+    imageUrl: "https://christchapelkarawaci.org/wp-content/uploads/2025/02/ACS-scaled.jpg",
+    imagePosition: "top",
+    flipHorizontal: true,
+  }
+  ,
   {
     id: "d1-2",
-    name: "Alvin Wijaya",
-    jobTitle: "School System Coordinator of SDH",
-    topic: "Pedagogical Innovation",
-    imageUrl: "Alvin Wijaya (2).jpg",
+    name: "dr. Stephanie Riady",
+    jobTitle: "Executive Director of Pelita Harapan Group",
+    topic: "Faithful Leadership for a Growing Mission: PHG & SDH: Where We Stand, Where We Are Going, What We Will and Will Not Pursue",
+    role: "Speaker",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQFuQoZxz8xdzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712070861955?e=1783555200&v=beta&t=U2gLOAjXIDlumR442O-xq6ZpCwJJt-2SyGIci-5jtG8",
   },
+  {
+    id: "d1-3",
+    name: "Yuzo Adhinarta, Ph.D",
+    jobTitle: "Lecturer at Sekolah Tinggi Teologi Reformed Indonesoa",
+    topic: "Leading with Focus/Spiritual Mindset & Learning with Examples",
+    role: "Speaker",
+    imageUrl: "https://reformedindonesia.ac.id/wp-content/uploads/2024/12/DSC00328.jpg.webp",
+    imagePosition: "top"
+  }
 ];
 
-const day2Speakers: Speaker[] = [
-  {
-    id: "d2-1",
-    name: "Alvin Pardomuan Sebastian",
-    jobTitle: "Educational Technology Supervisor",
-    topic: "Visionary Christian Leadership",
-    imageUrl: "",
-  },
+export const day2Speakers: Speaker[] = [
   {
     id: "d2-2",
-    name: "Obed Tegar Kristiawan",
-    jobTitle: "Educational Technology Specialist",
-    topic: "Digital Integration",
-    imageUrl: "https://i.pravatar.cc/300?u=edtech",
+    name: "Dedy Panggabean",
+    jobTitle: "Lecturer at Universitas Pelita Harapan Teachers College",
+    label: "Devotion",
+    topic: "Fragile, Fallen, and Held — The Leader Who Needs Grace (2 Corinthians 12:9-10)",
+    role: "Preacher",
+    imageUrl: "Dedy-1.jpg",
+    imagePosition: "top",
+    flipHorizontal: true,
   },
   {
-    id: "d2-3",
-    name: "Nico Nainggolan",
-    jobTitle: "Educational Technology Specialist",
-    topic: "Level Synergy",
-    imageUrl: "https://i.pravatar.cc/300?u=subject",
-  },
+    id: "d2-1",
+    name: "Gabriel Endra Kusumawijaya",
+    jobTitle: "School System Coordinator of SLH",
+    topic: "Guarding the Leader: Fragility, Shadow Mission, and the Biblical Safeguards",
+    role: "Speaker",
+    imageUrl: "DSC03647.jpg",
+    imagePosition: "50% -60%",
+    imageScale: 1.4,
+  }
 ];
 
-const day3Speakers: Speaker[] = [
+export const day3Speakers: Speaker[] = [
   {
     id: "d3-1",
-    name: "Regional Teams",
-    jobTitle: "Branch Managers",
-    topic: "Group Presentations & Action Plans",
-    imageUrl: "https://i.pravatar.cc/300?u=regional",
+    name: "Rasta Wahyuni Purba",
+    jobTitle: "PDCE Biblical Studies Specialist",
+    label: "Devotion",
+    topic: "We Are Unworthy Servants — Soli Deo Gloria (Luke 17:10)",
+    role: "Preacher",
+    imageUrl: "https://media.licdn.com/dms/image/v2/C5603AQHuV-98oNUylA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596604652824?e=1783555200&v=beta&t=QUAMA19oUfQXYYhS-tEQ_1LImj0HQZs4_-bRfNpbrIk"
   },
   {
     id: "d3-2",
-    name: "Executive Committee",
-    jobTitle: "Board of Directors",
-    topic: "Commissioning & Closing Address",
-    imageUrl: "https://i.pravatar.cc/300?u=executive",
-  },
+    name: "Novemelia Purba",
+    jobTitle: "Head of Academics SLH",
+    topic: "Info & Updates: T&S Handbook, NTI/RTI, Other Operational Updates",
+    role: "Speaker",
+    imageUrl: "DSC03793.jpg",
+    imagePosition: "50% -20%",
+    imageScale: 1.4,
+  }
 ];
 
 const days = [
@@ -75,6 +100,8 @@ const days = [
   { id: "day2", label: "Day 02", speakers: day2Speakers },
   { id: "day3", label: "Day 03", speakers: day3Speakers },
 ];
+
+export const allSpeakers = [...day1Speakers, ...day2Speakers, ...day3Speakers];
 
 export default function Speakers() {
   const [activeDay, setActiveDay] = useState("day1");
@@ -94,7 +121,7 @@ export default function Speakers() {
             viewport={{ once: true }}
             className="text-sm font-bold uppercase tracking-[0.25em] text-brand-orange"
           >
-            Featured Voices
+            Featured Keynotes
           </motion.h2>
           <motion.h3
             initial={{ opacity: 0, y: 20 }}
@@ -103,7 +130,7 @@ export default function Speakers() {
             transition={{ delay: 0.1 }}
             className="text-3xl sm:text-5xl font-bebas text-brand-blue-dark tracking-wide uppercase mt-2 text-shadow-soft"
           >
-            Meet The Speakers
+            Meet The Preachers & Speakers
           </motion.h3>
           <div className="w-12 h-1 bg-brand-blue-light mt-4 rounded-full" />
         </div>
@@ -154,12 +181,19 @@ export default function Speakers() {
                   className="bg-brand-cream border border-brand-blue-light/10 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group"
                 >
                   {/* Image Placeholder */}
-                  <div className="w-full h-56 bg-gradient-to-br from-brand-blue-dark/5 to-brand-blue-light/20 flex items-center justify-center relative overflow-hidden">
+                  <div className="w-full h-96 bg-gradient-to-br from-brand-blue-dark/5 to-brand-blue-light/20 flex items-center justify-center relative overflow-hidden">
                     {speaker.imageUrl ? (
                       <img
                         src={speaker.imageUrl}
                         alt={speaker.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        className="w-full h-full object-cover transition-transform duration-500"
+                        style={{
+                          objectPosition: speaker.imagePosition || "center",
+                          transform: speaker.flipHorizontal
+                            ? "scaleX(-1)"
+                            : undefined,
+                          scale: speaker.imageScale || 1,
+                        }}
                       />
                     ) : (
                       <User className="w-20 h-20 text-brand-blue-dark/10 group-hover:scale-110 transition-transform duration-500" />
@@ -167,7 +201,7 @@ export default function Speakers() {
                     {/* A subtle overlay to make it look like a premium placeholder */}
                     <div className="absolute inset-0 bg-brand-blue-dark/10 mix-blend-multiply opacity-50 transition-opacity duration-300 group-hover:opacity-0" />
                     <div className="absolute bottom-2 right-2 bg-brand-white/90 backdrop-blur-sm px-3 py-1 rounded-md text-[10px] font-bold text-brand-blue-dark uppercase tracking-wider shadow-sm">
-                      Speaker
+                      {speaker.role || "Speaker"}
                     </div>
                   </div>
 
@@ -188,7 +222,7 @@ export default function Speakers() {
                         <BookOpen className="w-4 h-4 text-brand-blue-light shrink-0 mt-0.5" />
                         <div>
                           <span className="block text-[10px] font-semibold text-brand-text-muted uppercase tracking-wider mb-1">
-                            Topic:
+                            {speaker.label || "Topic"}:
                           </span>
                           <span className="text-sm font-medium text-brand-blue-dark leading-snug">
                             {speaker.topic}
