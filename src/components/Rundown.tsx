@@ -371,7 +371,7 @@ const day1CCTTSessions: Session[] = [
   },
   {
     time: "10:45 - 12:00",
-    title: "Rigorous Christ-Centered Holistic Education",
+    title: "Session 2: Rigorous Christ-Centered Holistic Education",
     icon: BookOpen
   },
   {
@@ -449,7 +449,7 @@ const day2CCTTSessions: Session[] = [
   },
   {
     time: "13:00 - 14:30",
-    title: "Build a STEM Culture in My School",
+    title: "Session 5b: Build a STEM Culture in My School",
     icon: BookOpen
   },
   {
