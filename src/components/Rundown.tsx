@@ -289,7 +289,7 @@ const day3Sessions: Session[] = [
     title: "Professional Presence & School Community Standards",
     people: [
       {
-        name: "Meldy Kese",
+        name: "Syukurniati Lase",
         role: "Speaker"
       },
       {
