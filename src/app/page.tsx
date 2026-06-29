@@ -11,9 +11,9 @@ import Invitation from "@/components/Invitation";
 import Rundown from "@/components/Rundown";
 import Speakers from "@/components/Speakers";
 import EventGuidelines from "@/components/EventGuidelines";
-import AffiliatedSchools from "@/components/AffiliatedSchools";
 import Venue from "@/components/Venue";
 import Preloader from "@/components/Preloader";
+import TemplateResources from "@/components/TemplateResources";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -47,6 +47,7 @@ export default function Home() {
               <Invitation />
               <Speakers />
               <Rundown />
+              <TemplateResources />
               <EventGuidelines />
               <Venue />
             </main>

@@ -95,10 +95,6 @@ export default function Invitation() {
               </div>
             </div>
 
-
-
-
-
           </div>
         </motion.div>
       </div>

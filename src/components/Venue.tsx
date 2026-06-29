@@ -57,7 +57,7 @@ export default function Venue() {
               </h4>
 
               <p className="text-sm text-brand-text-muted leading-relaxed mb-6">
-                The campus is strategically located in Lippo Village, Karawaci, Tangerang. The leadership meeting will be held across the Main Chapel, Hope Hall, and multiple collaborative breakout rooms.
+                The campus is strategically located in Lippo Village, Karawaci, Tangerang. The leadership meeting will be held across the Main Chapel
               </p>
 
               <div className="space-y-4">
