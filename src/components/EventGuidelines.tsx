@@ -64,6 +64,21 @@ export default function EventGuidelines() {
                                             <span className="text-brand-text-muted">Batik</span>
                                         </div>
                                     </div>
+                                    {/* Day 1 */}
+                                    <div className="flex items-center gap-4 group/item">
+                                        <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden bg-white shrink-0 border border-brand-blue-light/10 shadow-sm group-hover/item:shadow-md transition-all">
+                                            <Image
+                                                src="/images/4.png"
+                                                alt="Sport"
+                                                fill
+                                                className="object-contain p-2 group-hover/item:scale-110 transition-transform duration-300"
+                                            />
+                                        </div>
+                                        <div className="flex flex-col">
+                                            <span className="font-bold text-brand-text-dark text-lg">Day 1 (Games)</span>
+                                            <span className="text-brand-text-muted">Sports Clothes</span>
+                                        </div>
+                                    </div>
 
                                     {/* Day 2 */}
                                     <div className="flex items-center gap-4 group/item">
