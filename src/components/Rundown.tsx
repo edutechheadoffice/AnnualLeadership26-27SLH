@@ -260,15 +260,15 @@ const day3Sessions: Session[] = [
     title: "Learning from Each Other— School Stories That Inspire",
     people: [
       {
-        name: "SLH Curug",
+        name: "Perhatian Ndruru",
         role: "Speaker"
       },
       {
-        name: "SLH Kampung Harapan",
+        name: "Fred Koirewoa",
         role: "Speaker"
       },
       {
-        name: "SLH Kupang",
+        name: "Zadrak Juniki Nailius",
         role: "Speaker"
       }
     ],
@@ -293,7 +293,7 @@ const day3Sessions: Session[] = [
         role: "Speaker"
       },
       {
-        name: "Alvian",
+        name: "Alfian Angi",
         role: "Speaker"
       }
     ],
