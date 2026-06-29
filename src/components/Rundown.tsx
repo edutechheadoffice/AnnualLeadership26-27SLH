@@ -343,8 +343,137 @@ const day3Sessions: Session[] = [
   }
 ];
 
+const day1CCTTSessions: Session[] = [
+  {
+    time: "06:30 - 08:00",
+    title: "Breakfast",
+    icon: Coffee
+  },
+  {
+    time: "08:00 - 08:15",
+    title: "Welcoming and Greetings - Alive in Christ",
+    icon: Users
+  },
+  {
+    time: "08:00 - 08:30",
+    title: "Opening Worship: A Community of Servants Called to Lead (Mark 10:43-35)",
+    icon: BookOpen
+  },
+  {
+    time: "09:15 - 10:15",
+    title: "Session 1: The CCTT as an Academic Leader",
+    icon: BookOpen
+  },
+  {
+    time: "10:15 - 10:45",
+    title: "Coffee Break",
+    icon: Coffee
+  },
+  {
+    time: "10:45 - 12:00",
+    title: "Rigorous Christ-Centered Holistic Education",
+    icon: BookOpen
+  },
+  {
+    time: "12:00 - 12:15",
+    title: "Photo Session",
+    icon: Camera
+  },
+  {
+    time: "12:15 - 13:15",
+    title: "Lunch Break",
+    icon: Soup
+  },
+  {
+    time: "13:15 - 15:15",
+    title: "Session 3: ONE SLH Implementation Cycle 2",
+    icon: BookOpen
+  },
+  {
+    time: "15:15 - 15:35",
+    title: "Transition to Games Activity",
+    icon: Users
+  },
+  {
+    time: "15:35 - 16:45",
+    title: "Games Activity",
+    icon: Gamepad2
+  },
+  {
+    time: "16:45 - 19:00",
+    title: "Dinner & Fellowship",
+    icon: Soup
+  },
+  {
+    time: "19:00 - 19:30",
+    title: "Closing",
+    icon: Users
+  }
+];
+const day2CCTTSessions: Session[] = [
+  {
+    time: "06:30 - 08:00",
+    title: "Breakfast",
+    icon: Coffee
+  },
+  {
+    time: "08:00 - 08:30",
+    title: "Fragile, Fallen, and Held — The Leader Who Needs Grace (2 Corinthians 12:9-10)",
+    people: [
+      {
+        name: "Dedy Panggabean",
+        role: "Preacher"
+      }
+    ],
+    icon: BookOpen
+  },
+  {
+    time: "08:30 - 10:00",
+    title: "Session 4: Contextualizing Learning Through Interdisciplinary & Transcidiplinary Design",
+    icon: BookOpen
+  },
+  {
+    time: "10:00 - 10:20",
+    title: "Coffee Break",
+    icon: Coffee
+  },
+  {
+    time: "10:20 - 12:00",
+    title: "Session 5a: STEM Exhibition & Learning Walk",
+    icon: BookOpen
+  },
+  {
+    time: "12:00 - 13:00",
+    title: "Lunch Break",
+    icon: Soup
+  },
+  {
+    time: "13:00 - 14:30",
+    title: "Build a STEM Culture in My School",
+    icon: BookOpen
+  },
+  {
+    time: "14:30 - 14:50",
+    title: "Coffee Break",
+    icon: Coffee
+  },
+  {
+    time: "14:50 - 15:50",
+    title: "Session 6: Professional Development Planning Workshop",
+    icon: BookOpen
+  },
+  {
+    time: "15:50 - 16:00",
+    title: "Dismissal",
+    icon: Soup
+  }
+];
+
+
 const days = [
   { id: "day1", label: "Day 01", date: "July 06, 2026", sessions: day1Sessions },
+  { id: "day1-ctt", label: "Day 01 (CCTT)", date: "July 06, 2026", sessions: day1CCTTSessions },
+  { id: "day2-ctt", label: "Day 02 (CCTT)", date: "July 07, 2026", sessions: day2CCTTSessions },
   { id: "day2", label: "Day 02", date: "July 07, 2026", sessions: day2Sessions },
   { id: "day3", label: "Day 03", date: "July 08, 2026", sessions: day3Sessions },
 ];
