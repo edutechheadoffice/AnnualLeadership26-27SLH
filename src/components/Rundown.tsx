@@ -473,8 +473,8 @@ const day2CCTTSessions: Session[] = [
 const days = [
   { id: "day1", label: "Day 01", date: "July 06, 2026", sessions: day1Sessions },
   { id: "day1-ctt", label: "Day 01 (CCTT)", date: "July 06, 2026", sessions: day1CCTTSessions },
-  { id: "day2-ctt", label: "Day 02 (CCTT)", date: "July 07, 2026", sessions: day2CCTTSessions },
   { id: "day2", label: "Day 02", date: "July 07, 2026", sessions: day2Sessions },
+  { id: "day2-ctt", label: "Day 02 (CCTT)", date: "July 07, 2026", sessions: day2CCTTSessions },
   { id: "day3", label: "Day 03", date: "July 08, 2026", sessions: day3Sessions },
 ];
 
