@@ -92,6 +92,56 @@ export const day3Speakers: Speaker[] = [
     imageUrl: "DSC03793.jpg",
     imagePosition: "50% -20%",
     imageScale: 1.4,
+  },
+  {
+    id: "d3-3",
+    name: "Perhatian Nduru",
+    jobTitle: "Junior School Principal of SLH Curug",
+    topic: "Learning from Each Other — School Stories That Inspire",
+    role: "Speaker",
+    imageUrl: "SLH Curug - Perhatian Ndruru.JPG",
+    imagePosition: "top",
+    flipHorizontal: true
+  },
+  {
+    id: "d3-4",
+    name: "Zadrak Juniki Nailius",
+    jobTitle: "Senior School Principal of SLH Kupang",
+    topic: "Learning from Each Other — School Stories That Inspire",
+    role: "Speaker",
+    imageUrl: "SLH Kupang - Zadrak Juniki Nailius.JPG",
+    imagePosition: "50% 50%",
+    flipHorizontal: true
+  },
+  {
+    id: "d3-5",
+    name: "Fred Koirewoa",
+    jobTitle: "Senior School Principal of SLH Kampung Harapan",
+    topic: "Learning from Each Other — School Stories That Inspire",
+    role: "Speaker",
+    imageUrl: "SLH Kampung Harapan - Fred Samuel Koirewoa.png",
+    imagePosition: "50% 70%",
+    imageScale: 1.4
+  },
+  {
+    id: "d3-6",
+    name: "Syukurniati Lase",
+    jobTitle: "Senior School Principal of SLH Nias",
+    topic: "Professional Presence & School Community Standards",
+    role: "Speaker",
+    imageUrl: "SLH Gunungsitoli - Syukurniati Lase.png",
+    imagePosition: "top",
+    flipHorizontal: true
+  },
+  {
+    id: "d3-7",
+    name: "Alfian Angi",
+    jobTitle: "Senior School Principal of SLH Sangihe",
+    topic: "Professional Presence & School Community Standards",
+    role: "Speaker",
+    imageUrl: "SLH Sangihe - Alfian Angi.jpg",
+    imagePosition: "top",
+    flipHorizontal: true
   }
 ];
 
