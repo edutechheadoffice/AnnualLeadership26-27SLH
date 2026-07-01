@@ -12,7 +12,7 @@ export interface Speaker {
   role?: string;
   label?: string;
   imageUrl?: string;
-  imagePosition?: string; // misalnya: "top", "bottom", "center", atau "0% 20%"
+  imagePosition?: string;
   flipHorizontal?: boolean;
   imageScale?: number;
 }
@@ -115,13 +115,14 @@ export const day3Speakers: Speaker[] = [
   },
   {
     id: "d3-5",
-    name: "Fred Koirewoa",
+    name: "Andreas Resdianto",
     jobTitle: "Senior School Principal of SLH Kampung Harapan",
     topic: "Learning from Each Other — School Stories That Inspire",
     role: "Speaker",
-    imageUrl: "SLH Kampung Harapan - Fred Samuel Koirewoa.png",
+    imageUrl: "WhatsApp Image 2026-07-01 at 11.49.54.jpeg",
     imagePosition: "50% 70%",
-    imageScale: 1.4
+    imageScale: 1.4,
+    flipHorizontal: true
   },
   {
     id: "d3-6",
@@ -139,7 +140,7 @@ export const day3Speakers: Speaker[] = [
     jobTitle: "Senior School Principal of SLH Sangihe",
     topic: "Professional Presence & School Community Standards",
     role: "Speaker",
-    imageUrl: "SLH Sangihe - Alfian Angi.jpg",
+    imageUrl: "Desain tanpa judul (1).png",
     imagePosition: "top",
     flipHorizontal: true
   }

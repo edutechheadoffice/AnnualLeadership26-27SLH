@@ -112,7 +112,7 @@ const day1Sessions: Session[] = [
   },
   {
     time: "14:15 - 14:45",
-    title: "Wrap Up School Theme Session",
+    title: "Wrap Up School Theme Session & Chapel Pathway",
     icon: Users
   },
   {
@@ -260,11 +260,11 @@ const day3Sessions: Session[] = [
     title: "Learning from Each Other— School Stories That Inspire",
     people: [
       {
-        name: "Perhatian Ndruru",
+        name: "Perhatian Nduru",
         role: "Speaker"
       },
       {
-        name: "Fred Koirewoa",
+        name: "Andreas Resdianto",
         role: "Speaker"
       },
       {

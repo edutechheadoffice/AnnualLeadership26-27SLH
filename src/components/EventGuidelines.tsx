@@ -122,7 +122,7 @@ export default function EventGuidelines() {
                                 </div>
                                 <h5 className="font-bold text-brand-text-dark text-xl mb-4">Lanyard</h5>
                                 <p className="text-brand-text-muted leading-relaxed">
-                                    To be worn throughout the duration of the event. Lanyards will be provided for newly appointed leaders from non-SDH.
+                                    To be worn throughout the duration of the event. Lanyards will be provided for newly appointed leaders from non-SLH.
                                 </p>
                             </div>
 
