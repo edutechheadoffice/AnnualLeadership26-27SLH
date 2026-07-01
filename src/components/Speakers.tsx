@@ -41,7 +41,7 @@ export const day1Speakers: Speaker[] = [
   {
     id: "d1-3",
     name: "Yuzo Adhinarta, Ph.D",
-    jobTitle: "Lecturer at Sekolah Tinggi Teologi Reformed Indonesoa",
+    jobTitle: "Lecturer at Sekolah Tinggi Teologi Reformed Indonesia",
     topic: "Leading with Focus/Spiritual Mindset & Learning with Examples",
     role: "Speaker",
     imageUrl: "https://reformedindonesia.ac.id/wp-content/uploads/2024/12/DSC00328.jpg.webp",
