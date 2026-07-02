@@ -117,8 +117,8 @@ export const day2Speakers: Speaker[] = [
   {
     id: "d2-4",
     name: "Leticya Sarung Allo",
-    jobTitle: "PDCE",
-    topic: "Contextualizing Learning Through Interdisciplinary & Transdisciplinary Design (Senior School)",
+    jobTitle: "PDCE Science SS",
+    topic: "Contextualizing Learning Through Interdisciplinary & Transdisciplinary Design (Senior School) \n ",
     role: "Speaker",
     imageUrl: "/images/WhatsApp Image 2026-07-02 at 09.56.30.jpeg",
     imagePosition: "50% 0%"
@@ -126,7 +126,7 @@ export const day2Speakers: Speaker[] = [
   {
     id: "d2-5",
     name: "Immanuel Adianto",
-    jobTitle: "PDCE",
+    jobTitle: "PDCE Math SS",
     topic: "STEM Exhibition & Learning Walk & Building a STEM Culture in My School",
     role: "Speaker",
     imageUrl: "/images/IMG_0172.JPG",
