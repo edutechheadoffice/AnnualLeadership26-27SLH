@@ -46,6 +46,38 @@ export const day1Speakers: Speaker[] = [
     role: "Speaker",
     imageUrl: "https://reformedindonesia.ac.id/wp-content/uploads/2024/12/DSC00328.jpg.webp",
     imagePosition: "top"
+  },
+  {
+    id: "d1-4",
+    name: "Ita Minar Oktavia Pardosi",
+    jobTitle: "PDCE",
+    topic: "The CCTT as an Academic Leader, Rigorous Christ-Centered Holistic Education & One SLH Implementation Cycle 2",
+    role: "Speaker",
+    imageUrl: "/images/DSC03819.jpg",
+    imagePosition: "50% -10%",
+    flipHorizontal: true,
+    imageScale: 1.4
+  },
+  {
+    id: "d1-5",
+    name: "Rasta Wahyni Purba",
+    jobTitle: "PDCE Biblical Studies Specialist",
+    topic: "Rigorous Christ-Centered Holistic Education",
+    role: "Speaker",
+    imageUrl: "/images/IMG_6925.JPG",
+    imagePosition: "50% 40%",
+    flipHorizontal: true,
+    imageScale: 1.3
+  },
+  {
+    id: "d1-6",
+    name: "Beta Laoli",
+    jobTitle: "PDCE",
+    topic: "One SLH Implementation Cycle 2",
+    role: "Speaker",
+    imageUrl: "",
+    imagePosition: "top",
+    flipHorizontal: true,
   }
 ];
 
@@ -69,7 +101,38 @@ export const day2Speakers: Speaker[] = [
     role: "Speaker",
     imageUrl: "DSC03647.jpg",
     imagePosition: "50% -60%",
+    imageScale: 1.4
+  },
+  {
+    id: "d2-3",
+    name: "Ita Minar Oktavia Pardosi",
+    jobTitle: "PDCE",
+    topic: "Contextualizing Learning Through Interdisciplinary & Transdisciplinary Design (Junior School) & Building a STEM Culture in My School",
+    role: "Speaker",
+    imageUrl: "/images/DSC03819.jpg",
+    imagePosition: "50% -10%",
+    flipHorizontal: true,
+    imageScale: 1.4
+  },
+  {
+    id: "d2-4",
+    name: "Leticya Sarung Allo",
+    jobTitle: "PDCE",
+    topic: "Contextualizing Learning Through Interdisciplinary & Transdisciplinary Design (Senior School)",
+    role: "Speaker",
+    imageUrl: "/images/WhatsApp Image 2026-07-02 at 09.56.30.jpeg",
+    imagePosition: "50% 0%"
+  },
+  {
+    id: "d2-5",
+    name: "Immanuel Adianto",
+    jobTitle: "PDCE",
+    topic: "STEM Exhibition & Learning Walk & Building a STEM Culture in My School",
+    role: "Speaker",
+    imageUrl: "/images/IMG_0172.JPG",
     imageScale: 1.4,
+    imagePosition: "50% -10%",
+    flipHorizontal: true,
   }
 ];
 
@@ -81,7 +144,10 @@ export const day3Speakers: Speaker[] = [
     label: "Devotion",
     topic: "We Are Unworthy Servants — Soli Deo Gloria (Luke 17:10)",
     role: "Preacher",
-    imageUrl: "https://media.licdn.com/dms/image/v2/C5603AQHuV-98oNUylA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596604652824?e=1783555200&v=beta&t=QUAMA19oUfQXYYhS-tEQ_1LImj0HQZs4_-bRfNpbrIk"
+    imageUrl: "/images/IMG_6925.JPG",
+    imagePosition: "50% 40%",
+    flipHorizontal: true,
+    imageScale: 1.3
   },
   {
     id: "d3-2",

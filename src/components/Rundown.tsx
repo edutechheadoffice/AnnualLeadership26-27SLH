@@ -362,6 +362,12 @@ const day1CCTTSessions: Session[] = [
   {
     time: "09:15 - 10:15",
     title: "Session 1: The CCTT as an Academic Leader",
+    people: [
+      {
+        name: "Ita Minar Oktavia Pardosi",
+        role: "Speaker"
+      }
+    ],
     icon: BookOpen
   },
   {
@@ -372,6 +378,16 @@ const day1CCTTSessions: Session[] = [
   {
     time: "10:45 - 12:00",
     title: "Session 2: Rigorous Christ-Centered Holistic Education",
+    people: [
+      {
+        name: "Rasta Wahyuni Purba",
+        role: "Speaker"
+      },
+      {
+        name: "Ita Minar Oktavia Pardosi",
+        role: "Speaker"
+      }
+    ],
     icon: BookOpen
   },
   {
@@ -387,6 +403,20 @@ const day1CCTTSessions: Session[] = [
   {
     time: "13:15 - 15:15",
     title: "Session 3: ONE SLH Implementation Cycle 2",
+    people: [
+      {
+        name: "Ita Minar Oktavia Pardosi",
+        role: "Speaker"
+      },
+      {
+        name: "Beta Laoli",
+        role: "Speaker"
+      },
+      {
+        name: "Natan Jatmiko",
+        role: "Speaker"
+      }
+    ],
     icon: BookOpen
   },
   {
@@ -430,6 +460,16 @@ const day2CCTTSessions: Session[] = [
   {
     time: "08:30 - 10:00",
     title: "Session 4: Contextualizing Learning Through Interdisciplinary & Transcidiplinary Design",
+    people: [
+      {
+        name: "Ita Minar Oktavia Pardosi",
+        role: "Speaker | Junior School (JS)"
+      },
+      {
+        name: "Leticya Sarung Allo",
+        role: "Speaker | Senior School (SS)"
+      }
+    ],
     icon: BookOpen
   },
   {
@@ -440,6 +480,16 @@ const day2CCTTSessions: Session[] = [
   {
     time: "10:20 - 12:00",
     title: "Session 5a: STEM Exhibition & Learning Walk",
+    people: [
+      {
+        name: "Imanuel Adianto",
+        role: "Speaker"
+      },
+      {
+        name: "Leticya Sarung Allo",
+        role: "Speaker"
+      }
+    ],
     icon: BookOpen
   },
   {
@@ -450,6 +500,24 @@ const day2CCTTSessions: Session[] = [
   {
     time: "13:00 - 14:30",
     title: "Session 5b: Build a STEM Culture in My School",
+    people: [
+      {
+        name: "Ita Minar Oktavia Pardosi",
+        role: "Speaker"
+      },
+      {
+        name: "Imanuel Adianto",
+        role: "Speaker"
+      },
+      {
+        name: "Leticya Sarung Allo",
+        role: "Speaker"
+      },
+      {
+        name: "Natan Jatmiko",
+        role: "Speaker"
+      }
+    ],
     icon: BookOpen
   },
   {
@@ -460,6 +528,16 @@ const day2CCTTSessions: Session[] = [
   {
     time: "14:50 - 15:50",
     title: "Session 6: Professional Development Planning Workshop",
+    people: [
+      {
+        name: "Ita Minar Oktavia Pardosi",
+        role: "Speaker"
+      },
+      {
+        name: "Leticya Sarung Allo",
+        role: "Speaker"
+      }
+    ],
     icon: BookOpen
   },
   {
