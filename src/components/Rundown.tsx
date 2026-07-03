@@ -316,7 +316,12 @@ const day3Sessions: Session[] = [
     icon: BookOpen
   },
   {
-    time: "13:45 - 14:15",
+    time: "13:45 - 14:05",
+    title: "LBB Presentation",
+    icon: BookOpen
+  },
+  {
+    time: "14:05 - 14:35",
     title: "Information & Updates: T&S Handbook, NTI/RTI, Lumina, and Operational Updates",
     people: [
       {
@@ -327,7 +332,7 @@ const day3Sessions: Session[] = [
     icon: BookOpen
   },
   {
-    time: "14:15 - 15:00",
+    time: "14:35 - 15:20",
     title: "Closing Worship: Soli Deo Gloria",
     people: [
       {

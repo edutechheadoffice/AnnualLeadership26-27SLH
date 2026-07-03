@@ -33,7 +33,7 @@ export const day1Speakers: Speaker[] = [
   {
     id: "d1-2",
     name: "dr. Stephanie Riady",
-    jobTitle: "Executive Director of Pelita Harapan Group",
+    jobTitle: "President of Pelita Harapan Group",
     topic: "Faithful Leadership for a Growing Mission: PHG & SDH: Where We Stand, Where We Are Going, What We Will and Will Not Pursue",
     role: "Speaker",
     imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQFuQoZxz8xdzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712070861955?e=1783555200&v=beta&t=U2gLOAjXIDlumR442O-xq6ZpCwJJt-2SyGIci-5jtG8",
@@ -50,7 +50,7 @@ export const day1Speakers: Speaker[] = [
   {
     id: "d1-4",
     name: "Ita Minar Oktavia Pardosi",
-    jobTitle: "PDCE",
+    jobTitle: "PDCE Junior School Specialist",
     topic: "The CCTT as an Academic Leader, Rigorous Christ-Centered Holistic Education & One SLH Implementation Cycle 2",
     role: "Speaker",
     imageUrl: "/images/DSC03819.jpg",
@@ -72,7 +72,7 @@ export const day1Speakers: Speaker[] = [
   {
     id: "d1-6",
     name: "Beta Laoli",
-    jobTitle: "PDCE",
+    jobTitle: "PDCE Interior",
     topic: "One SLH Implementation Cycle 2",
     role: "Speaker",
     imageUrl: "",
@@ -106,7 +106,7 @@ export const day2Speakers: Speaker[] = [
   {
     id: "d2-3",
     name: "Ita Minar Oktavia Pardosi",
-    jobTitle: "PDCE",
+    jobTitle: "PDCE Junior School Specialist",
     topic: "Contextualizing Learning Through Interdisciplinary & Transdisciplinary Design (Junior School) & Building a STEM Culture in My School",
     role: "Speaker",
     imageUrl: "/images/DSC03819.jpg",
@@ -120,8 +120,9 @@ export const day2Speakers: Speaker[] = [
     jobTitle: "PDCE Science SS",
     topic: "Contextualizing Learning Through Interdisciplinary & Transdisciplinary Design (Senior School) \n ",
     role: "Speaker",
-    imageUrl: "/images/WhatsApp Image 2026-07-02 at 09.56.30.jpeg",
-    imagePosition: "50% 0%"
+    imageUrl: "/IMG_0181.PNG",
+    imagePosition: "top",
+    flipHorizontal: true
   },
   {
     id: "d2-5",
@@ -129,9 +130,8 @@ export const day2Speakers: Speaker[] = [
     jobTitle: "PDCE Math SS",
     topic: "STEM Exhibition & Learning Walk & Building a STEM Culture in My School",
     role: "Speaker",
-    imageUrl: "/images/IMG_0172.JPG",
-    imageScale: 1.4,
-    imagePosition: "50% -10%",
+    imageUrl: "/IMG_0180_fix.png",
+    imagePosition: "top",
     flipHorizontal: true,
   }
 ];
