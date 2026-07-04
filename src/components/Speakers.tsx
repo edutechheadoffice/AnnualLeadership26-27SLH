@@ -75,9 +75,9 @@ export const day1Speakers: Speaker[] = [
     jobTitle: "PDCE Interior",
     topic: "One SLH Implementation Cycle 2",
     role: "Speaker",
-    imageUrl: "",
-    imagePosition: "top",
-    flipHorizontal: true,
+    imageUrl: "SDH00505.jpg.jpg.png",
+    imagePosition: "50% 40%",
+    flipHorizontal: true
   }
 ];
 
