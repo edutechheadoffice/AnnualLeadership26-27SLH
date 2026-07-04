@@ -142,7 +142,7 @@ export const day3Speakers: Speaker[] = [
     name: "Rasta Wahyuni Purba",
     jobTitle: "PDCE Biblical Studies Specialist",
     label: "Devotion",
-    topic: "We Are Unworthy Servants — Soli Deo Gloria (Luke 10:17-20)",
+    topic: "We Are Unworthy Servants — Soli Deo Gloria (Luke 17:10)",
     role: "Preacher",
     imageUrl: "/images/IMG_6925.JPG",
     imagePosition: "50% 40%",
