@@ -317,7 +317,7 @@ const day3Sessions: Session[] = [
   },
   {
     time: "13:45 - 14:05",
-    title: "LBB Session by Lentera Bagi Bangsa",
+    title: "LBB Session by Lentera Bagi",
     icon: BookOpen
   },
   {
