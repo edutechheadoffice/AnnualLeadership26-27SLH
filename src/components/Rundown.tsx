@@ -33,7 +33,7 @@ const day1Sessions: Session[] = [
   },
   {
     time: "08:15 - 09:15",
-    title: "Opening Worship: A Community of Servants Called to Lead (Mark 10:43-35)",
+    title: "Opening Worship: A Community of Servants Called to Lead (Mark 10:43-45)",
     people: [
       {
         name: "Beta Mualiman",
