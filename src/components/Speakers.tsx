@@ -31,14 +31,6 @@ export const day1Speakers: Speaker[] = [
   }
   ,
   {
-    id: "d1-2",
-    name: "dr. Stephanie Riady",
-    jobTitle: "President of Pelita Harapan Group",
-    topic: "Faithful Leadership for a Growing Mission: PHG & SLH: Where We Stand, Where We Are Going, What We Will and Will Not Pursue",
-    role: "Speaker",
-    imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQFuQoZxz8xdzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712070861955?e=1783555200&v=beta&t=U2gLOAjXIDlumR442O-xq6ZpCwJJt-2SyGIci-5jtG8",
-  },
-  {
     id: "d1-3",
     name: "Yuzo Adhinarta, Ph.D",
     jobTitle: "Head of STT Reformed Indonesia",
@@ -71,7 +63,7 @@ export const day1Speakers: Speaker[] = [
   },
   {
     id: "d1-6",
-    name: "Beta Laoli",
+    name: "Beta Mualiman",
     jobTitle: "PDCE Interior",
     topic: "One SLH Implementation Cycle 2",
     role: "Speaker",
@@ -151,6 +143,14 @@ export const day3Speakers: Speaker[] = [
   },
   {
     id: "d3-2",
+    name: "dr. Stephanie Riady",
+    jobTitle: "President of Pelita Harapan Group",
+    topic: "Faithful Leadership for a Growing Mission: PHG & SLH: Where We Stand, Where We Are Going, What We Will and Will Not Pursue",
+    role: "Speaker",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQFuQoZxz8xdzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712070861955?e=1783555200&v=beta&t=U2gLOAjXIDlumR442O-xq6ZpCwJJt-2SyGIci-5jtG8",
+  },
+  {
+    id: "d3-3",
     name: "Novemelia Purba",
     jobTitle: "Head of Academics SLH",
     topic: "Info & Updates: T&S Handbook, NTI/RTI, Other Operational Updates",
@@ -160,7 +160,7 @@ export const day3Speakers: Speaker[] = [
     imageScale: 1.4,
   },
   {
-    id: "d3-3",
+    id: "d3-4",
     name: "Perhatian Nduru",
     jobTitle: "Junior School Principal of SLH Curug",
     topic: "Learning from Each Other — School Stories That Inspire",
@@ -170,7 +170,7 @@ export const day3Speakers: Speaker[] = [
     flipHorizontal: true
   },
   {
-    id: "d3-4",
+    id: "d3-5",
     name: "Zadrak Juniki Nailius",
     jobTitle: "Senior School Principal of SLH Kupang",
     topic: "Learning from Each Other — School Stories That Inspire",
@@ -180,7 +180,7 @@ export const day3Speakers: Speaker[] = [
     flipHorizontal: true
   },
   {
-    id: "d3-5",
+    id: "d3-6",
     name: "Andreas Resdianto",
     jobTitle: "Senior School Principal of SLH Kampung Harapan",
     topic: "Learning from Each Other — School Stories That Inspire",
@@ -191,7 +191,7 @@ export const day3Speakers: Speaker[] = [
     flipHorizontal: true
   },
   {
-    id: "d3-6",
+    id: "d3-7",
     name: "Syukurniati Lase",
     jobTitle: "Senior School Principal of SLH Nias",
     topic: "Professional Presence & School Community Standards",
@@ -201,7 +201,7 @@ export const day3Speakers: Speaker[] = [
     flipHorizontal: true
   },
   {
-    id: "d3-7",
+    id: "d3-8",
     name: "Alfian Angi",
     jobTitle: "Senior School Principal of SLH Sangihe",
     topic: "Professional Presence & School Community Standards",

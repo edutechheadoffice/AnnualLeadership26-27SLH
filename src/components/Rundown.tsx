@@ -83,7 +83,7 @@ const day1Sessions: Session[] = [
     title: "Greetings from Pak Deny Sinaga",
     people: [
       {
-        name: "Pak Deny Sinaga",
+        name: "Deny Kiswanto Sinaga, M.Ed",
         role: "Speaker"
       }
     ],
@@ -115,7 +115,7 @@ const day1Sessions: Session[] = [
     title: "School Theme Exposition & Application: Alive in Christ (Second Cycle: Faith in Christ | Colossians 2:13-14)",
     people: [
       {
-        name: "Alfa Sritosa Citra",
+        name: "Alfa Citra Sritosa",
         role: "Speaker"
       }
     ],
@@ -427,7 +427,7 @@ const day1CCTTSessions: Session[] = [
         role: "Speaker"
       },
       {
-        name: "Beta Laoli",
+        name: "Beta Mualiman",
         role: "Speaker"
       },
       {
