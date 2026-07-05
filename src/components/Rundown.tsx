@@ -79,28 +79,39 @@ const day1Sessions: Session[] = [
     icon: Users
   },
   {
-    time: "11:45 - 12:05",
-    title: "Faithful Leadership for a Growing Mission : Where We Stand, Where We Are Going, What We Will and Will Not Pursue",
+    time: "11:45 - 12:00",
+    title: "Greetings from Pak Deny Sinaga",
     people: [
       {
-        name: "Dr. Stephanie Riady",
+        name: "Pak Deny Sinaga",
         role: "Speaker"
       }
     ],
     icon: Users
   },
   {
-    time: "12:05 - 12:15",
+    time: "12:00 - 12:20",
+    title: "Lentera Bagi Bangsa (LBB) Session",
+    people: [
+      {
+        name: "Ibu Nursari",
+        role: "Speaker"
+      }
+    ],
+    icon: Users
+  },
+  {
+    time: "12:20 - 12:30",
     title: "Photo Session",
     icon: Camera
   },
   {
-    time: "12:15 - 13:15",
+    time: "12:30 - 13:30",
     title: "Lunch Break",
     icon: Soup
   },
   {
-    time: "13:15 - 14:15",
+    time: "13:30 - 14:30",
     title: "School Theme Exposition & Application: Alive in Christ (Second Cycle: Faith in Christ | Colossians 2:13-14)",
     people: [
       {
@@ -111,32 +122,32 @@ const day1Sessions: Session[] = [
     icon: Users
   },
   {
-    time: "14:15 - 14:45",
+    time: "14:30 - 15:00",
     title: "Wrap Up School Theme Session & Chapel Pathway",
     icon: Users
   },
   {
-    time: "14:45 - 15:15",
+    time: "15:00 - 15:30",
     title: "Reflective Prayer & Quiet Time",
     icon: Users
   },
   {
-    time: "15:15 - 15:35",
+    time: "15:30 - 15:50",
     title: "Transition to Games Activity",
     icon: Gamepad2
   },
   {
-    time: "15:35 - 16:45",
+    time: "15:50 - 17:00",
     title: "Games Activity",
     icon: Gamepad2
   },
   {
-    time: "16:45 - 19:00",
+    time: "17:00 - 19:15",
     title: "Dinner & Fellowship",
     icon: Soup
   },
   {
-    time: "19:00 - 19:30",
+    time: "19:15 - 19:45",
     title: "Closing",
     icon: Users
   }
@@ -256,7 +267,7 @@ const day3Sessions: Session[] = [
     icon: BookOpen
   },
   {
-    time: "08:30 - 09:30",
+    time: "08:30 - 09:40",
     title: "Learning from Each Other— School Stories That Inspire",
     people: [
       {
@@ -275,17 +286,24 @@ const day3Sessions: Session[] = [
     icon: BookOpen
   },
   {
-    time: "09:30 - 09:45",
+    time: "09:40 - 10:00",
     title: "Coffee Break",
     icon: Coffee
   },
   {
-    time: "09:45 - 10:45",
-    title: "School Action Plan Workshop — Finalize, Sharpen, Commit",
+    time: "10:00 - 10:30",
+    title: "Faithful Leadership for a Growing Mission: PHG & SDH: Where We Stand, Where We Are Going, What We Will and Will Not Pursue",
+    people: [
+      {
+        name: "Dr. Stephanie Riady",
+        role: "Speaker"
+      }
+    ],
     icon: BookOpen
   },
+
   {
-    time: "10:45 - 11:45",
+    time: "10:30 - 11:30",
     title: "Professional Presence & School Community Standards",
     people: [
       {
@@ -300,12 +318,12 @@ const day3Sessions: Session[] = [
     icon: BookOpen
   },
   {
-    time: "11:45 - 12:45",
+    time: "11:30 - 12:30",
     title: "Lunch Break",
     icon: Soup
   },
   {
-    time: "12:45 - 13:45",
+    time: "12:30 - 13:30",
     title: "Info Session: Universitas Pelita Harapan",
     people: [
       {
@@ -316,12 +334,7 @@ const day3Sessions: Session[] = [
     icon: BookOpen
   },
   {
-    time: "13:45 - 14:05",
-    title: "LBB Session by Lentera Bagi",
-    icon: BookOpen
-  },
-  {
-    time: "14:05 - 14:35",
+    time: "13:30 - 14:00",
     title: "Information & Updates: T&S Handbook, NTI/RTI, Lumina, and Operational Updates",
     people: [
       {
@@ -332,7 +345,7 @@ const day3Sessions: Session[] = [
     icon: BookOpen
   },
   {
-    time: "14:35 - 15:20",
+    time: "14:00 - 15:00",
     title: "Closing Worship: Soli Deo Gloria",
     people: [
       {
@@ -360,8 +373,8 @@ const day1CCTTSessions: Session[] = [
     icon: Users
   },
   {
-    time: "08:00 - 08:30",
-    title: "Opening Worship: A Community of Servants Called to Lead (Mark 10:43-35)",
+    time: "08:15 - 09:15",
+    title: "Opening Worship: A Community of Servants Called to Lead (Mark 10:43-45)",
     icon: BookOpen
   },
   {
