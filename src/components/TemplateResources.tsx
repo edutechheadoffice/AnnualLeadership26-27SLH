@@ -34,7 +34,7 @@ export default function TemplateResources() {
 
                     <div className="shrink-0">
                         <a
-                            href="https://ypph.sharepoint.com/:x:/s/InternalHeadofOffice/IQBkhZgrdjDXQ79Qa87l9ZPIAavsuyI3-4jHO-b8F0mjtNM?e=ilhtLs"
+                            href="https://ypph.sharepoint.com/:x:/s/InternalHeadofOffice/IQAGTYeI2RerRZn_B3KVenTEATz9TiLBn1i0i-g5K4gYHjU?e=ITKe0N"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-brand-orange text-white font-bold uppercase tracking-wider rounded-full hover:bg-brand-orange/90 hover:shadow-lg hover:shadow-brand-orange/20 transition-all duration-300 group"
