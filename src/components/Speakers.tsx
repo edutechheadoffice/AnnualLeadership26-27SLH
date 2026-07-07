@@ -96,6 +96,58 @@ export const day2Speakers: Speaker[] = [
     imageScale: 1.4
   },
   {
+    id: "d2-6",
+    name: "Ester  D. Damanik",
+    jobTitle: "Manager of Marketing",
+    topic: "KPI as Mission Narrative",
+    role: "Speaker",
+    imageUrl: "DSC09925.jpg",
+    imagePosition: "50% -10%",
+    imageScale: 1.2
+  },
+  {
+    id: "d2-7",
+    name: "Hizkia Kharisma",
+    jobTitle: "Manager of Facility Management Department",
+    topic: "KPI as Mission Narrative",
+    role: "Speaker",
+    imageUrl: "DSC00822.jpg",
+    imagePosition: "50% 0%",
+    flipHorizontal: true
+  },
+  {
+    id: "d2-8",
+    name: "Theresia Tri Harjanti",
+    jobTitle: "Manager of Finance & Accounting Department",
+    topic: "KPI as Mission Narrative",
+    role: "Speaker",
+    imageUrl: "Theresia Tri Harjanti (2).jpg",
+    imagePosition: "50% 40%",
+    flipHorizontal: true,
+    imageScale: 1.3
+  },
+  {
+    id: "d2-9",
+    name: "Febriana Kristin Marjono",
+    jobTitle: "Manager of HR Department",
+    topic: "KPI as Mission Narrative",
+    role: "Speaker",
+    imageUrl: "DSC03839.jpg",
+    imagePosition: "50% 10%",
+    flipHorizontal: true,
+    imageScale: 1.3
+  },
+  {
+    id: "d2-10",
+    name: "Novemelia Purba",
+    jobTitle: "Head of Academics SLH",
+    topic: "Info & Updates: T&S Handbook, NTI/RTI, Other Operational Updates",
+    role: "Speaker",
+    imageUrl: "DSC03793.jpg",
+    imagePosition: "50% -20%",
+    imageScale: 1.4,
+  },
+  {
     id: "d2-3",
     name: "Ita Minar Oktavia Pardosi",
     jobTitle: "PDCE Junior School Specialist",
