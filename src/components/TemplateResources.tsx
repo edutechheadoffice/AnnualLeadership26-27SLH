@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { FileText, Download, RectangleEllipsis, Radio } from "lucide-react";
+import { FileText, Download, RectangleEllipsis, Radio, ShoppingCart } from "lucide-react";
 
 export default function TemplateResources() {
     return (
@@ -140,6 +140,111 @@ export default function TemplateResources() {
                     <div className="shrink-0">
                         <a
                             href="https://ypph.sharepoint.com/sites/PrincipalSLH/Lists/SLH%20SI%20Charter%202627/AllItems.aspx"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-brand-orange text-white font-bold uppercase tracking-wider rounded-full hover:bg-brand-orange/90 hover:shadow-lg hover:shadow-brand-orange/20 transition-all duration-300 group"
+                        >
+                            <span>Open</span>
+                            <Download className="w-5 h-5 group-hover:-translate-y-1 group-hover:scale-110 transition-transform duration-300" />
+                        </a>
+                    </div>
+                </motion.div>
+            </div>
+            {/* third section */}
+            <div className="max-w-4xl mx-auto relative z-10 mb-10 ">
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="bg-white/80 backdrop-blur-xl border border-brand-blue-light/10 p-8 md:p-12 rounded-[2.5rem] shadow-sm flex flex-col md:flex-row items-center justify-between gap-8 card-shadow-premium-hover"
+                >
+                    <div className="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
+                        <div className="w-16 h-16 rounded-2xl bg-brand-blue/5 flex items-center justify-center shrink-0 border border-brand-blue/10">
+                            <FileText className="w-8 h-8 text-brand-blue" />
+                        </div>
+                        <div>
+                            <h3 className="text-2xl sm:text-3xl font-bebas text-brand-blue-dark tracking-wide mb-2">
+                                All Materials Documents
+                            </h3>
+                            <p className="text-brand-text-muted max-w-lg">
+                                Here's the link to download all resources and documents during all session
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="shrink-0">
+                        <a
+                            href="https://ypph-my.sharepoint.com/:f:/g/personal/alvin_sebastian_sdh_or_id/IgADMzBYupCASIw8BcHreTQ-Af8MBlItjw4IcLJKweUeGHo?e=7hxz5m"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-brand-orange text-white font-bold uppercase tracking-wider rounded-full hover:bg-brand-orange/90 hover:shadow-lg hover:shadow-brand-orange/20 transition-all duration-300 group"
+                        >
+                            <span>Open</span>
+                            <Download className="w-5 h-5 group-hover:-translate-y-1 group-hover:scale-110 transition-transform duration-300" />
+                        </a>
+                    </div>
+                </motion.div>
+            </div>
+            {/* third section */}
+            <div className="max-w-4xl mx-auto relative z-10 mb-10 ">
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="bg-white/80 backdrop-blur-xl border border-brand-blue-light/10 p-8 md:p-12 rounded-[2.5rem] shadow-sm flex flex-col md:flex-row items-center justify-between gap-8 card-shadow-premium-hover"
+                >
+                    <div className="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
+                        <div className="w-16 h-16 rounded-2xl bg-brand-blue/5 flex items-center justify-center shrink-0 border border-brand-blue/10">
+                            <FileText className="w-8 h-8 text-brand-blue" />
+                        </div>
+                        <div>
+                            <h3 className="text-2xl sm:text-3xl font-bebas text-brand-blue-dark tracking-wide mb-2">
+                                Evaluation form
+                            </h3>
+                            <p className="text-brand-text-muted max-w-lg">
+                                Here's the link to open the evaluation form
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="shrink-0">
+                        <a
+                            href="https://forms.cloud.microsoft/r/h4F2vhW8kn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-brand-orange text-white font-bold uppercase tracking-wider rounded-full hover:bg-brand-orange/90 hover:shadow-lg hover:shadow-brand-orange/20 transition-all duration-300 group"
+                        >
+                            <span>Open</span>
+                            <Download className="w-5 h-5 group-hover:-translate-y-1 group-hover:scale-110 transition-transform duration-300" />
+                        </a>
+                    </div>
+                </motion.div>
+            </div>
+            {/* third section */}
+            <div className="max-w-4xl mx-auto relative z-10 mb-10 ">
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="bg-white/80 backdrop-blur-xl border border-brand-blue-light/10 p-8 md:p-12 rounded-[2.5rem] shadow-sm flex flex-col md:flex-row items-center justify-between gap-8 card-shadow-premium-hover"
+                >
+                    <div className="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
+                        <div className="w-16 h-16 rounded-2xl bg-brand-blue/5 flex items-center justify-center shrink-0 border border-brand-blue/10">
+                            <ShoppingCart className="w-8 h-8 text-brand-blue" />
+                        </div>
+                        <div>
+                            <h3 className="text-2xl sm:text-3xl font-bebas text-brand-blue-dark tracking-wide mb-2">
+                                Artec Purchase Kit
+                            </h3>
+                            <p className="text-brand-text-muted max-w-lg">
+                                Here's the link to request intermediate and advanced purchase kits Please to complete the order request before July 12.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="shrink-0">
+                        <a
+                            href="https://ypph.sharepoint.com/:x:/s/HeadofAcademicSLH/IQCR4mFISyb4QIWyTNgd_bf9AYsV-830eR_dNZLlIlHON_Q?e=f0oHkq"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-brand-orange text-white font-bold uppercase tracking-wider rounded-full hover:bg-brand-orange/90 hover:shadow-lg hover:shadow-brand-orange/20 transition-all duration-300 group"
