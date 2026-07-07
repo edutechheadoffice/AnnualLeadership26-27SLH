@@ -69,7 +69,7 @@ export default function TemplateResources() {
 
                     <div className="shrink-0">
                         <a
-                            href="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=8gHswSU1mUS3Gz90bdmfjYeaF0qiBmVEjvuzdH0ZqoBUMFRGS0hYQklSQ0lQV1ZPT0k3U0VON1UxUCQlQCNjPTEu&Token=df135e53eb824681bec7d4264cc424a7"
+                            href="https://forms.office.com/Pages/ResponsePage.aspx?id=8gHswSU1mUS3Gz90bdmfjYeaF0qiBmVEjvuzdH0ZqoBUMFRGS0hYQklSQ0lQV1ZPT0k3U0VON1UxUCQlQCNjPTEu"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-brand-orange text-white font-bold uppercase tracking-wider rounded-full hover:bg-brand-orange/90 hover:shadow-lg hover:shadow-brand-orange/20 transition-all duration-300 group"
